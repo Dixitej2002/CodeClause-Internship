@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dixit | Pradhan</title>
+</head>
+
+<body>
+    <div id="splashPage">
+        <div class="splashContent">
+            <h1>Welcome to My Portfolio!</h1>
+            <p>Explore my work and skills.</p>
+            <svg id="waveAnimation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20">
+                <path id="wavePath" d="M0 10 C30 30, 70 30, 100 10" stroke="#ffcc00" fill="none" stroke-width="2" />
+            </svg>
+        </div>
+    </div>
+     <div class="cover" style="background-image: url('yu.avif');">
+        <div class="container">
+            <h1>Dixit Pradhan</h1>
+            <p>Web Developer</p>
+        </div>
+    </div>
+
+    <nav class="menu">
+        <div class="container">
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#update">Update</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects1">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <section id="profile" class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <section class="profile">
+                        <h2>Profile</h2>
+                        <img src="Dixit.png" alt="Dixit">
+                        <p>A passionate web developer with a strong foundation in front-end and back-end technologies.
+                            Excited about creating responsive and user-friendly web applications.</p>
+                    </section>
+
+                    <section id="about" class="about-me">
+                        <h2>About Me</h2>
+                        <p> <span class="name">Hello, I am Dixit Pradhan.</span> <br> <br>
+                            I am a student and pursuing MCA at Centurion University, Bhubaneswar. <br>
+                            I have good knowledge of Web development and app development. 
+                            I am eager to learn more new technology and stay motivated.</p>
+                    </section>
+
+                    <section id="update" class="update">
+                        <h2>Update</h2>
+                        <div class="notification">
+                            <p><strong>Update:</strong> New project added to the portfolio. Check it out!</p>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="main-content">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Front-end Development</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+                <div class="skill">
+                    <h3>Back-end Development</h3>
+                    <p>Node.js, Spring, MongoDB</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="projects1" class="main-content">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-section1">
+                <div class="project1">
+                    <div class="project-info1">
+                        <h3>Portfolio Website</h3>
+                        <p>A personal portfolio website to showcase skills and projects.</p>
+                        <div class="languages">
+                            <img src="html-5.png" alt="HTML Icon" title="HTML">
+                            <img src="css-3.png" alt="CSS Icon" title="CSS">
+                            <img src="java-script.png" alt="JavaScript Icon" title="JavaScript">
+                        </div>
+                    </div>
+                </div>
+                <div class="project1">
+                    <div class="project-info1">
+                        <h3>All In One Service Provider</h3>
+                        <p>An application help people from fraud websites because it redirect official Websites.</p>
+                        <div class="languages">
+                            <img src="html-5.png" alt="HTML Icon" title="HTML">
+                            <img src="css-3.png" alt="CSS Icon" title="CSS">
+                            <img src="java-script.png" alt="Javascript Icon" title="JS">
+                            <img src="php.png" alt="PHP Icon" title="PHP">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="main-content">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="contact.php" method="POST">
+                <!-- <input type="hidden" name="access_key" value="60a7f7b5-98f7-404e-8ae7-f9ec08f68b3a"> -->
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>    
+    <section id="social" class="main-content">
+        <div class="container">
+            <h2>Connect with Me</h2>
+            <div class="social-icons">
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="twitter">
+                    <img src="twitter.png" alt="Twitter Icon">
+                </a>
+                <a href="https://rb.gy/u6t321" target="_blank" rel="noopener noreferrer" class="linkedin">
+                    <img src="linkedin.png" alt="LinkedIn Icon">
+                </a>
+                <a href="https://rb.gy/ze2r81" target="_blank" rel="noopener noreferrer" class="github">
+                    <img src="github.png" alt="GitHub Icon">
+                </a>
+            
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dixit. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <button id="backToTop" title="Go to top">&#9650;</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
