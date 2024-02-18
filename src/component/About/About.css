@@ -1,0 +1,67 @@
+
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-page h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-page p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  
+  .social {
+    margin-top: 30px;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social a:last-child {
+    margin-right: 0;
+  }
+  
+  .social a img {
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .social a:hover {
+    transform: translateY(-5px);
+  }
+  @media screen and (max-width: 480px) {
+    .about-page {
+      padding: 20px;
+    }
+  
+    .about-page h1 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  
+    .about-page p {
+      font-size: 0.9em;
+    }
+  
+    .social a {
+      margin-right: 10px;
+    }
+  
+    .social a img {
+      height: 25px;
+    }
+  }

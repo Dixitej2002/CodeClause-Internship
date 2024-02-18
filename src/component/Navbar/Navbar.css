@@ -1,0 +1,118 @@
+
+.navbar {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ece5e5;
+  color: #0a0909;
+  padding: 1rem;
+  margin-bottom: 3rem; 
+  box-shadow: 0 0 10px #b96363;
+  border-radius: 3px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar__logo img {
+  height: 3.5rem;
+}
+
+.navbar__toggle {
+  display: none; 
+  cursor: pointer;
+}
+
+
+.navbar__menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__item {
+  margin-right: 1rem;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #0c0c0c;
+  transition:transform 0.3s;
+}
+
+.navbar__link:hover {
+  color: #7e96e4;
+  border-bottom: 2px solid rgb(110, 50, 9);
+  
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+    
+    border-bottom: 2px solid #7e96e4;
+  }
+
+  .navbar__menu {
+    display: none; 
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navbar__item {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    text-align: center; 
+  }
+
+  .navbar__toggle {
+    display: block; 
+    margin: 15px;
+  }
+
+  
+  .navbar__menu.show {
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ResumeEditor form,
+  .ResumePreview {
+    padding: 10px; 
+  }
+
+  .ResumeEditor form {
+    margin-bottom: 10px; 
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="number"],
+  input[type='tel'],
+  input[type='month'],
+  textarea {
+    font-size: 14px; 
+  }
+
+  label {
+    font-size: 16px; 
+  }
+
+  button[type="button"],
+  button[type="submit"] {
+    padding: 8px 18px; 
+  }
+}
