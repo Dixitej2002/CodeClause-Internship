@@ -1,0 +1,136 @@
+nav{
+   color: white;
+    display: inline-flex;
+    /* background-color: rgb(56, 37, 12); */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-bottom: 2rem;
+    
+    
+    
+   
+}
+.menus{
+    margin: auto;
+    /* gap: 20rem; */
+}
+.menus ul li{
+    display:  inline-block;
+    list-style : none ;
+   
+    width:  auto;
+    text-align: center;
+    text-indent: 28px;
+    
+    font-size:  18px;
+    line-height: 40px;
+    
+   
+}
+.logo{
+    background-color: rgb(14, 2, 2);
+    height: 3rem;
+    width: 3rem;
+    margin: 1rem;
+    margin-left: 4rem;
+    padding:3px;
+    border-radius:20px;position: absolute;
+
+}
+.logo img{
+    
+    height: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    /* margin:2.3px; */
+
+}
+.backgroundImg{
+    margin: auto;
+    width: 100%;
+    /* background-color: white; */
+    display: inline-flex;
+    /* flex-direction: column;  */
+}
+.backgroundImg img{
+    margin:auto;
+    /* max-width:  */
+    width: 85%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity:.9;
+    /* position: relative; */
+    box-shadow: 3px 1px 10px #8df58d;
+    margin-bottom: 30px;
+}
+
+.title {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  
+  .title h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem; /* Adjust font size as needed */
+  }
+  .title img{
+    width: 500px;
+  }
+  
+.sp1{
+    color: red;
+}
+.sp2{
+    color: aquamarine;
+}
+@media screen and (max-width: 768px) {
+    .menus ul li {
+      margin-right: 10px; /* Reduce margin for smaller screens */
+      font-size: 16px; /* Decrease font size for smaller screens */
+    }
+  
+    .logo {
+        /* display: none; */
+      margin-left: 1rem; /* Adjust margin for smaller screens */
+    }
+  
+    .backgroundImg img {
+      height: 400px; /* Decrease height of background image for smaller screens */
+    }
+    .title {
+      top:30%;
+    }
+    .title img{
+     width: 250px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .menus ul li {
+      font-size: 14px; /* Further decrease font size for even smaller screens */
+    }
+  
+    .logo {
+      
+      margin-left: 1rem; /* Further adjust margin for smaller screens */
+    }
+  
+    .backgroundImg img {
+      height: 300px; /* Further decrease height of background image for smaller screens */
+    }
+    .title {
+      top:25%;
+    }
+    .title img{
+      display: none;
+    }
+    
+  }

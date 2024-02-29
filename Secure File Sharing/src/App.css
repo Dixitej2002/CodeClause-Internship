@@ -1,0 +1,116 @@
+body {
+  background-image: url(./component/icons/background1.jpg);
+  background-size: cover;
+  height: fit-content;
+  
+}
+
+.inc{
+  color: white;
+}
+
+.flex-box{
+  display: flex;
+  
+  height: 20rem;
+  gap: 1rem;
+  align-items: center;
+  
+  justify-content: center;
+  gap: 10em;
+  /* justify-items: center; */
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 20px;
+  /* opacity: .3; */
+  position: relative;
+}
+.app-header {
+  text-align: center;
+}
+
+.upload-section
+{
+  background-color: #fff;
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+}
+.share-section{
+  display: block;
+  /* background-color: #ffffffdc; */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px -3px 7px #0f075a;
+  
+  }
+
+.download-file{
+  display: block;
+  /* border: 2px solid  black; */
+  /* background: linear-gradient(to bottom,pink,rgb(132, 175, 132)); */
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 7px #0f075a;
+}
+.upload-section {
+  transform: rotateY(10deg);
+}
+
+.share-section {
+  transform: rotateY(-10deg);
+}
+
+.download-file {
+  transform: rotateX(5deg);
+}
+.download-file input{
+  height: 2rem;
+  border: none;
+  border-radius: 5px;
+  width: 15rem;
+  justify-content: center;
+  justify-items: center;
+  padding: 5px;
+  background: rgb(233, 213, 213);
+}
+.download-file h1 ,.share-section h2{
+  color: #6E43B5;
+}
+
+@media (max-width: 768px) {
+  .flex-box {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .upload-section,
+  .share-section,
+  .download-file {
+    padding: 20px;
+    margin: 10px;
+    max-width: none;
+    transform: none;
+  }
+
+  .download-file input {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .flex-box {
+    gap: 5em;
+  }
+}
+
+
+@media (min-width: 1025px) {
+  .flex-box {
+    gap: 10em;
+  }
+}
+

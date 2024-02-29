@@ -1,0 +1,22 @@
+.link-copy{
+    display: flex;
+    /* background: rgb(89, 134, 173); */
+    height: 3rem;
+    /* width: 100rem; */
+    border-radius: 10px;
+}
+.link-copy input{
+    width: 20rem;
+    box-shadow: 2px 3px 7px #000000;
+}
+.link-copy input[type="text"]{
+    border: none;
+    background-color: rgb(223, 218, 213);
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+.link-copy button{
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    background-color: rgba(38, 15, 245, 0.664);
+}

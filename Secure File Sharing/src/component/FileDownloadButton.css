@@ -1,0 +1,11 @@
+.dwn-file{
+    height: 30px;
+    background-color: violet;
+    border-radius: 5px;
+    border: none;
+    font-weight:  bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    
+}
+.dwn-file:hover {background-color: #aaa;}
